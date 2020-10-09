@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: georgia;
+    background: url('../pics/bg-body.png') #fff;
+}
+.wrapper{
+    max-width: 900px;
+    margin: 0;
+}
+nav{
+    display: block;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 30px;
+    list-style: none;
+}
+nav ul li{
+    border-right: 1px dashed rgba(255, 255, 255, 0.2);
+    border-left: 1px dashed rgba(255, 255, 255, 0.2);
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+}
+nav a:hover{
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+}
+main{
+    width: 75%;
+    padding: 30px;
+}
+main p {
+    line-height: 23px;
+}
+.wrapper nav{
+    background: url('../pics/bg-menu.jpg');
+    
+}
+aside{
+    width: 25%;
+    border-bottom: black dashed 1px;
+
+}
+aside ul{
+    list-style: none;
+}
+aside li{
+    
+    border-bottom: 1px dashed black;
+}
+h1{
+    font-size: 50px;
+    color: greenyellow;
+    font-weight: 700;
+    padding: 10px 10px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+    font-family: Georgia;
+}
+.recipes img{
+    width: 25%;
+}
+.recipe-box{
+    background-color: white;
+    margin: 40px auto;
+}
+.recipes{
+    flex-flow:row wrap;
+}
+.content{
+    
+}
+
+
